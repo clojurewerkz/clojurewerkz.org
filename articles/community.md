@@ -1,5 +1,5 @@
 ---
-title: "ClojureWerkz: Community"
+title: "ClojureWerkz, Clojure libraries: Community"
 layout: article
 ---
 

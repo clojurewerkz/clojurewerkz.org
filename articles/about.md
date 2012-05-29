@@ -1,5 +1,5 @@
 ---
-title: "ClojureWerkz: Community"
+title: "ClojureWerkz, Clojure libraries: Projects"
 layout: article
 ---
 
@@ -8,13 +8,20 @@ layout: article
 
 ClojureWerkz is a growing collection of open source Clojure libraries that work well together:
 
-* [Langohr](https://github.com/michaelklishin/langohr)
-* [Monger](https://github.com/michaelklishin/monger)
-* [Neocons](https://github.com/michaelklishin/neocons)
-* [Elastisch](https://github.com/clojurewerkz/elastisch)
-* [Welle](https://github.com/michaelklishin/welle)
-* [Quartzite](https://github.com/michaelklishin/quartzite)
-* [Urly](https://github.com/michaelklishin/urly)
-* [Pantomime](https://github.com/michaelklishin/pantomime)
+* [Monger, a Clojure MongoDB driver](https://github.com/michaelklishin/monger)
+* [Welle, a Clojure client for Riak](https://github.com/michaelklishin/welle)
+* [Quartzite, a powerful scheduling library](https://github.com/michaelklishin/quartzite)
+* [Neocons, a Clojure client for the Neo4J REST API](https://github.com/michaelklishin/neocons)
+* [Langohr, a Clojure client for RabbitMQ](https://github.com/michaelklishin/langohr)
+* [Elastisch, a Clojure client for ElasticSearch](https://github.com/clojurewerkz/elastisch)
+* [Urly](https://github.com/michaelklishin/urly) unifies java.net.URL, java.net.URI and other URL-like entities
+* [Pantomime](https://github.com/michaelklishin/pantomime), a library that deals with Internet media (MIME) types
 
 and several others.
+
+
+## Who is responsible for it?
+
+[Michael Klishin](http://twitter.com/michaelklishin) and [Alex P](http://twitter.com/ifesdjeen), with contributions
+from Clojure developers around the globe.
+
