@@ -35,8 +35,8 @@ community.
 
 Clojure is fantastic, small, very productive and powerful language built on industrial
 strength runtimes (JVM, JavaScript VMs, .NET/CLR). Thanks to access to existing Java, C# and JavaScript libraries,
-it is typically not an issue to find a library that does what you need. Finding a good library that is also well documented,
-however, is significantly more challenging. Documentation is not seen as something essential by the Clojure core team.
+it is typically not an issue to find a library that does what you need. Finding a good library that is also feature complete
+and well documented, however, is more challenging.
 
 ClojureWerkz tries to challenge this and make the Clojure community a better place.
 
@@ -51,13 +51,19 @@ from Clojure developers around the globe.
 
 ## You can help!
 
-You can help by spreading the word, documenting your own open source projects better and giving us feedback on mailing lists.
+You can help by
 
-And maybe for the lulz, endorse our development skills on Coderwall: [Michael](http://coderwall.com/michaelklishin), [Alex](http://coderwall.com/ifesdjeen).
+ * Spreading the word
+ * Documenting your own open source projects better (we have [a slate repository](https://github.com/clojurewerkz/docslate) everyone can use and adapt)
+ * Giving us feedback on mailing lists
+ * Contribute documentation or code
+ * [Help us proof-read and edit](mailto:michael@defprotocol.org) our guides
+
+And maybe for the lulz, endorse: [Michael](http://coderwall.com/michaelklishin)'s and [Alex](http://coderwall.com/ifesdjeen)'s development skills on Coderwall.
 
 
 
 ## Get in touch
 
-You can [follow or mention @ClojureWerkz](https://twitter.com/clojurewerkz) on Twitter or [email us](michael@defprotocol.org).
+You can [follow or mention @ClojureWerkz](https://twitter.com/clojurewerkz) on Twitter or [email us](mailto:michael@defprotocol.org).
 
