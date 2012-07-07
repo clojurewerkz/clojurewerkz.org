@@ -6,13 +6,14 @@ layout: article
 
 ## What is ClojureWerkz?
 
-ClojureWerkz is a growing collection of open source Clojure libraries that work well together:
+ClojureWerkz is a growing collection of open source Clojure libraries that share a common vision:
 
-* [Monger, a Clojure MongoDB driver](https://github.com/michaelklishin/monger)
-* [Welle, a Clojure client for Riak](https://github.com/michaelklishin/welle)
-* [Quartzite, a powerful scheduling library](https://github.com/michaelklishin/quartzite)
-* [Neocons, a Clojure client for the Neo4J REST API](https://github.com/michaelklishin/neocons)
+* [Monger, a Clojure MongoDB driver](http://clojuremongodb.info)
+* [Welle, a Clojure client for Riak](http://clojureriak.info)
 * [Langohr, a Clojure client for RabbitMQ](https://github.com/michaelklishin/langohr)
+* [Neocons, a Clojure client for the Neo4J REST API](http://clojureneo4j.info)
+* [Spyglass, a Clojure client for Memcached](http://clojurememcached.info)
+* [Quartzite, a powerful scheduling library](https://github.com/michaelklishin/quartzite)
 * [Elastisch, a Clojure client for ElasticSearch](https://github.com/clojurewerkz/elastisch)
 * [Urly](https://github.com/michaelklishin/urly) unifies java.net.URL, java.net.URI and other URL-like entities
 * [Pantomime](https://github.com/michaelklishin/pantomime), a library that deals with Internet media (MIME) types
@@ -20,8 +21,43 @@ ClojureWerkz is a growing collection of open source Clojure libraries that work 
 and several others.
 
 
+## The vision
+
+ClojureWerkz tries to make a collection of well maintained idiomatic libraries for practical purposes (data store clients,
+messaging, data validation, email, etc) that are also well documented, released under the same business-friendly license and
+built from the ground up for Clojure 1.3+.
+
+We've developed them over the years of using Clojure and we hope it can serve as an example for the rest of the Clojure
+community.
+
+
+## Why?
+
+Clojure is fantastic, small, very productive and powerful language built on industrial
+strength runtimes (JVM, JavaScript VMs, .NET/CLR). Thanks to access to existing Java, C# and JavaScript libraries,
+it is typically not an issue to find a library that does what you need. Finding a good library that is also well documented,
+however, is significantly more challenging. Documentation is not seen as something essential by the Clojure core team.
+
+ClojureWerkz tries to challenge this and make the Clojure community a better place.
+
+
+
 ## Who is responsible for it?
 
 [Michael Klishin](http://twitter.com/michaelklishin) and [Alex P](http://twitter.com/ifesdjeen), with contributions
 from Clojure developers around the globe.
+
+
+
+## You can help!
+
+You can help by spreading the word, documenting your own open source projects better and giving us feedback on mailing lists.
+
+And maybe for the lulz, endorse our development skills on Coderwall: [Michael](http://coderwall.com/michaelklishin), [Alex](http://coderwall.com/ifesdjeen).
+
+
+
+## Get in touch
+
+You can [follow or mention @ClojureWerkz](https://twitter.com/clojurewerkz) on Twitter or [email us](michael@defprotocol.org).
 
