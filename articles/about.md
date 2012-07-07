@@ -24,8 +24,8 @@ and several others.
 ## The vision
 
 ClojureWerkz tries to make a collection of well maintained idiomatic libraries for practical purposes (data store clients,
-messaging, data validation, email, etc) that are also well documented, released under the same business-friendly license and
-built from the ground up for Clojure 1.3+.
+messaging, data validation, email, etc) that are also well documented, released under the same business-friendly license,
+built from the ground up for Clojure 1.3+ and [run continuous integration against multiple Clojure versions](http://about.travis-ci.org/docs/user/languages/clojure/) and JDKs.
 
 We've developed them over the years of using Clojure and we hope it can serve as an example for the rest of the Clojure
 community.
