@@ -59,7 +59,7 @@ You can help by
  * Contribute documentation or code
  * [Help us proof-read and edit](mailto:michael@defprotocol.org) our guides
 
-And maybe for the lulz, endorse: [Michael](http://coderwall.com/michaelklishin)'s and [Alex](http://coderwall.com/ifesdjeen)'s development skills on Coderwall.
+And maybe for the lulz, endorse [Michael](http://coderwall.com/michaelklishin)'s and [Alex](http://coderwall.com/ifesdjeen)'s development skills on Coderwall.
 
 
 
