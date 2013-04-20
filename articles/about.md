@@ -6,7 +6,7 @@ layout: article
 
 ## What is ClojureWerkz?
 
-ClojureWerkz is a growing collection of open source Clojure libraries that share a common vision:
+ClojureWerkz is a growing collection of open source Clojure libraries that share a <a href="http://blog.clojurewerkz.org/blog/2013/04/20/how-to-make-your-open-source-project-really-awesome/">common vision</a>:
 
 * [Monger, a Clojure MongoDB driver](http://clojuremongodb.info)
 * [Welle, a Clojure client for Riak](http://clojureriak.info)
@@ -25,10 +25,10 @@ and several others.
 
 ClojureWerkz tries to make a collection of well maintained idiomatic libraries for practical purposes (data store clients,
 messaging, data validation, email, etc) that are also well documented, released under the same business-friendly license,
-built from the ground up for Clojure 1.3+ and [run continuous integration against multiple Clojure versions](http://about.travis-ci.org/docs/user/languages/clojure/) and JDKs.
+built from the ground up for Clojure 1.4+ and [run continuous integration against multiple Clojure versions](http://about.travis-ci.org/docs/user/languages/clojure/) and JDKs.
 
 We've developed them over the years of using Clojure and we hope it can serve as an example for the rest of the Clojure
-community.
+community. Or at least they <a href="http://blog.clojurewerkz.org/blog/2013/04/20/how-to-make-your-open-source-project-really-awesome/">don't suck</a>.
 
 
 ## Why?
@@ -44,9 +44,13 @@ ClojureWerkz tries to challenge this and make the Clojure community a better pla
 
 ## Who is responsible for it?
 
-[Michael Klishin](http://twitter.com/michaelklishin) and [Alex P](http://twitter.com/ifesdjeen), with contributions
+[Michael Klishin](http://twitter.com/michaelklishin), [Alex P](http://twitter.com/ifesdjeen), and [Zack Maril](http://twitter.com/zackmaril) with contributions
 from Clojure developers around the globe.
 
+
+## Contact Information
+
+You can [follow or mention @ClojureWerkz](https://twitter.com/clojurewerkz) on Twitter or [email us](mailto:contact@clojurewerkz.org).
 
 
 ## You can help!
@@ -57,13 +61,8 @@ You can help by
  * Documenting your own open source projects better (we have [a slate repository](https://github.com/clojurewerkz/docslate) everyone can use and adapt)
  * Giving us feedback on mailing lists
  * Contribute documentation or code
- * [Help us proof-read and edit](mailto:michael@defprotocol.org) our guides
-
-And maybe for the lulz, endorse [Michael](http://coderwall.com/michaelklishin)'s and [Alex](http://coderwall.com/ifesdjeen)'s development skills on Coderwall.
-
+ * [Donating](/articles/donate.html)
+ * [Help us proof-read and edit](mailto:contact@clojurewerkz.org) our guides
 
 
-## Get in touch
-
-You can [follow or mention @ClojureWerkz](https://twitter.com/clojurewerkz) on Twitter or [email us](mailto:michael@defprotocol.org).
 
