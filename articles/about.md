@@ -9,14 +9,12 @@ layout: article
 ClojureWerkz is a growing collection of open source Clojure libraries that share a <a href="http://blog.clojurewerkz.org/blog/2013/04/20/how-to-make-your-open-source-project-really-awesome/">common vision</a>:
 
 * [Monger, a Clojure MongoDB driver](http://clojuremongodb.info)
+* [Elastisch, a Clojure client for ElasticSearch](http://clojureelasticsearch.info)
 * [Welle, a Clojure client for Riak](http://clojureriak.info)
-* [Langohr, a Clojure client for RabbitMQ](https://github.com/michaelklishin/langohr)
+* [Langohr, a Clojure client for RabbitMQ](http://clojurerabbitmq.info)
 * [Neocons, a Clojure client for the Neo4J REST API](http://clojureneo4j.info)
 * [Spyglass, a Clojure client for Memcached](http://clojurememcached.info)
-* [Quartzite, a powerful scheduling library](https://github.com/michaelklishin/quartzite)
-* [Elastisch, a Clojure client for ElasticSearch](https://github.com/clojurewerkz/elastisch)
-* [Urly](https://github.com/michaelklishin/urly) unifies java.net.URL, java.net.URI and other URL-like entities
-* [Pantomime](https://github.com/michaelklishin/pantomime), a library that deals with Internet media (MIME) types
+* [Quartzite, a powerful scheduling library](http://clojurequartz.info)
 
 and several others.
 
