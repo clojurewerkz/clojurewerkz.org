@@ -3,245 +3,276 @@ title: "Clojure libraries for MongoDB, Riak, RabbitMQ, validations, Neo4J, Elast
 layout: default
 ---
 
-<div class='headline'>
-  <img src="/assets/images/clojurewerkz_logo_big.png" />
-  <div class='clear' style=''></div>
-  <p style=''>
-    A growing collection of open source Clojure libraries that support multiple Clojure & JDK versions, licensed under the <a href="http://www.eclipse.org/legal/epl-v10.html">EPL</a>, target Clojure 1.4+.
-  </p>
-  <p>
-    <a href="/articles/about.html">We value</a> solid documentation, the "batteries included" philosophy, consistent clean APIs, contributor-friendly development process built around
-    GitHub and <a href="http://travis-ci.org/">Travis CI</a>.
-  </p>
-  <p>
-    Brought to you by <a href="https://twitter.com/michaelklishin" class="twitter-follow-button" data-show-count="false" data-lang="en">@michaelklishin</a> and
+<header class="page-head" id="overview">
+  <div class="container">
+    <img width="325" height="119" src="/assets/images/clojurewerkz_logo_big.png" style="float: right" />
+    <h1>ClojureWerkz</h1>
+    <p class="lead">
+      A growing collection of open source Clojure libraries.
+      <a href="/articles/about.html">We value</a> solid documentation, ease of use, the "batteries included" philosophy, contributor-friendly development process.</p>
+  </div>
+</header>
+
+<div class="container">
+  <p class="alert">
+    Brought to you by <a href="https://twitter.com/michaelklishin" class="twitter-follow-button" data-show-count="false" data-lang="en">@michaelklishin</a>,
     <a href="https://twitter.com/ifesdjeen" class="twitter-follow-button" data-show-count="false" data-lang="en">@ifesdjeen</a>, and
     <a href="https://twitter.com/zackmaril" class="twitter-follow-button" data-show-count="false" data-lang="en">@zackmaril</a>.
-    <a href="https://twitter.com/clojurewerkz" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @ClojureWerkz</a> for updates.</p>
+    <a href="https://twitter.com/clojurewerkz" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @ClojureWerkz</a> for updates.
+
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </p>
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Monger <small><a href="https://clojars.org/com.novemberain/monger">on clojars</a></small></h3>
+      <p>Monger is a <a href="http://clojuremongodb.info">Clojure MongoDB client</a> for a more civilized age: friendly, flexible and with batteries included</p>
+      <p>
+        <a class="btn" href="http://clojuremongodb.info">Documentation »</a>
+        <a class="btn" href="https://github.com/michaelklishin/monger">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/forum/#!forum/clojure-mongodb">Mailing List »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Langohr <small><a href="https://clojars.org/com.novemberain/langohr">on clojars</a></small></h3>
+      <p>Feature rich <a href="https://github.com/michaelklishin/langohr">Clojure RabbitMQ client</a> that embraces <a href="http://bit.ly/amqp-model-explained">AMQP 0.9.1 Model</a> and RabbitMQ extensions to it.
+        Developed after 3+ years of experience with several other RabbitMQ clients.</p>
+      <p>
+        <a class="btn" href="http://clojurerabbitmq.info">Documentation »</a>
+        <a class="btn" href="https://github.com/michaelklishin/langohr">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/forum/#!forum/clojure-rabbitmq">Mailing List »</a>
+      </p>
+    </div>
+
+    <div class="span4">
+      <h3>Elastisch <small><a href="https://clojars.org/clojurewerkz/elastisch">on clojars</a></small></h3>
+      <p>Minimalistic <a href="https://github.com/clojurewerkz/elastisch">Clojure client for ElasticSearch</a> that strives to be feature complete</p>
+      <p>
+        <a class="btn" href="http://clojureelasticsearch.info">Documentation »</a>
+        <a class="btn" href="https://github.com/clojurewerkz/elastisch">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-elasticsearch">Mailing List »</a>
+      </p>
+    </div>
+  </div>
+
+
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Welle <small><a href="https://clojars.org/com.novemberain/welle">on clojars</a></small></h3>
+      <p>An expressive <a href="http://clojureriak.info">Clojure client for Riak</a></p>
+      <p>
+        <a class="btn" href="http://clojureriak.info">Documentation »</a>
+        <a class="btn" href="https://github.com/michaelklishin/welle">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-riak">Mailing List »</a>
+      </p>
+    </div>
+
+    <div class="span4">
+      <h3>Neocons <small><a href="https://clojars.org/clojurewerkz/neocons">on clojars</a></small></h3>
+      <p>An idiomatic <a href="https://github.com/michaelklishin/neocons">Clojure client for the Neo4J REST API</a>. Cypher queries, Heroku add-on support and more</p>
+      <p>
+        <a class="btn" href="http://clojureneo4j.info">Documentation »</a>
+        <a class="btn" href="https://github.com/michaelklishin/neocons">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-neo4j">Mailing List »</a>
+      </p>
+    </div>
+
+    <div class="span4">
+      <h3>Cassaforte <small><a href="https://clojars.org/clojurewerkz/cassaforte">on clojars</a></small></h3>
+      <p>A minimalistic <a href="https://github.com/clojurewerkz/cassaforte">Clojure client for Apache Cassandra</a> (1.2+), build around CQL (3.0).</p>
+      <p>
+        <a class="btn" href="https://github.com/clojurewerkz/cassaforte">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-cassandra">Mailing List »</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Titanium <small><a href="https://clojars.org/clojurewerkz/titanium">on clojars</a></small></h3>
+      <p>Powerful <a href="http://titanium.clojurewerkz.org">Clojure graph library</a> built on top of <a href="http://thinkaurelius.github.com/titan/">Titan</a></p>
+      <p>
+        <a class="btn" href="http://titanium.clojurewerkz.org">Documentation »</a>
+        <a class="btn" href="https://github.com/clojurewerkz/titanium">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-titanium">Mailing List »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Ogre <small><a href="https://clojars.org/clojurewerkz/ogre">on clojars</a></small></h3>
+      <p><a href="http://ogre.clojurewerkz.org">Clojure library for querying graphs</a></p>
+      <p>
+        <a class="btn" href="http://ogre.clojurewerkz.org">Documentation »</a>
+        <a class="btn" href="https://github.com/clojurewerkz/ogre">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-titanium">Mailing List »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Archimedes <small><a href="https://clojars.org/clojurewerkz/archimedes">on clojars</a></small></h3>
+      <p>Clojure library for <a href="http://tinkerpop.com">Blueprints graphs</a></p>
+      <p>
+        <!-- <a class="btn" href="http://archimedes.clojurewerkz.org">Documentation »</a> -->
+        <a class="btn" href="https://github.com/clojurewerkz/archimedes">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-titanium">Mailing List »</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Quartzite <small><a href="https://clojars.org/clojurewerkz/quartzite">on clojars</a></small></h3>
+      <p>Powerful <a href="http://clojurequartz.info">scheduling library for Clojure</a> that uses Quartz Scheduler under the hood</p>
+      <p>
+        <a class="btn" href="http://clojurequartz.info">Documentation »</a>
+        <a class="btn" href="https://github.com/michaelklishin/quartzite">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-quartz">Mailing List »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Spyglass <small><a href="https://clojars.org/clojurewerkz/spyglass">on clojars</a></small></h3>
+      <p>A very fast <a href="https://github.com/clojurewerkz/spyglass">Clojure Memcached client</a> built on top of <a href="http://code.google.com/p/spymemcached/">SpyMemcached</a>.</p>
+      <p>
+        <a class="btn" href="http://clojurememcached.info">Documentation »</a>
+        <a class="btn" href="https://github.com/clojurewerkz/spyglass">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-memcached">Mailing List »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Money <small><a href="https://clojars.org/clojurewerkz/money">on clojars</a></small></h3>
+      <p>Currency manipulation library for Clojure, built on top of Joda Money</p>
+      <p><a class="btn" href="https://github.com/clojurewerkz/money">On GitHub »</a></p>
+    </div>
+  </div>
+
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Validateur <small><a href="https://clojars.org/com.novemberain/validateur">on clojars</a></small></h3>
+      <p>Functional data <a href="https://github.com/michaelklishin/validateur">validations library for Clojure</a>. Inspired by Ruby's ActiveModel.</p>
+      <p>
+        <a class="btn" href="http://clojurevalidations.info">Documentation »</a>
+        <a class="btn" href="https://github.com/michaelklishin/validateur">On GitHub »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Mailer <small><a href="https://clojars.org/clojurewerkz/mailer">on clojars</a></small></h3>
+      <p>Mailer delivery library for Clojure inspired by ActionMailer. Uses Mustasche for templates, supports multiple delivery
+        mechanisms and unit testing</p>
+      <p><a class="btn" href="https://github.com/clojurewerkz/mailer">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Pantomime <small><a href="https://clojars.org/com.novemberain/pantomime">on clojars</a></small></h3>
+      <p>A tiny <a href="https://github.com/michaelklishin/pantomime">Clojure library that deals with MIME types</a> (Internet media types): sophisticated content
+        type detection strategies meet ease of use. Built on top of Apache Tika.</p>
+      <p>
+        <a class="btn" href="https://github.com/michaelklishin/pantomime">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-pantomime">Mailing List »</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Route One <small><a href="https://clojars.org/clojurewerkz/route-one">on clojars</a></small></h3>
+      <p>URL routes generation made easy</p>
+      <p>
+        <a class="btn" href="https://github.com/clojurewerkz/route-one">On GitHub »</a>
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Urly <small><a href="https://clojars.org/clojurewerkz/urly">on clojars</a></small></h3>
+      <p>A Clojure library that parses and unifies URIs, URLs and relative values that real world HTML anchors may contain</p>
+      <p><a class="btn" href="https://github.com/michaelklishin/urly">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Scrypt <small><a href="https://clojars.org/clojurewerkz/scrypt">on clojars</a></small></h3>
+      <p><a href="https://github.com/clojurewerkz/scrypt">scrypt library</a> for Clojure</p>
+      <p><a class="btn" href="https://github.com/clojurewerkz/scrypt">On GitHub »</a></p>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>CHash <small><a href="https://clojars.org/clojurewerkz/chash">on clojars</a></small></h3>
+      <p>A <a href="https://github.com/michaelklishin/chash">consistent hashing library</a> for Clojure</p>
+      <p><a class="btn" href="https://github.com/michaelklishin/chash">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Serialism <small><a href="https://clojars.org/clojurewerkz/serialism">on clojars</a></small></h3>
+      <p>A tiny Clojure library that handles serialization of values into popular formats based on the provided content type</p>
+      <p><a class="btn" href="https://github.com/clojurewerkz/serialism">On GitHub »</a>
+        <a class="btn" href="https://groups.google.com/group/clojure-serialism">Mailing List »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Support <small><a href="https://clojars.org/clojurewerkz/support">on clojars</a></small></h3>
+      <p>Support library for other ClojureWerkz projects</p>
+      <p><a class="btn" href="https://github.com/clojurewerkz/support">On GitHub »</a></p>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>VClock <small><a href="https://clojars.org/clojurewerkz/vclock">on clojars</a></small></h3>
+      <p><a href="https://clojars.org/clojurewerkz/vclock">Vector clocks implementation in Clojure</a>, ported from <a href="https://github.com/basho/riak_core">Riak Core</a></p>
+      <p><a class="btn" href="https://github.com/michaelklishin/vclock">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+    </div>
+    <div class="span4">
+    </div>
+  </div>
+
+
+
+  <div style="margin-top: 48px; margin-bottom: 16px;">
+    <h2>Friends of ClojureWerkz</h2>
+    <p>Projects below are not by us but they share our vision and are high quality so we are happy to recommend them</p>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Carmine <small><a href="https://clojars.org/com.taoensso/carmine">on clojars</a></small></h3>
+      <p>A great <a href="https://github.com/ptaoussanis/carmine">Clojure client for Redis</a></p>
+      <p><a class="btn" href="https://github.com/ptaoussanis/carmine">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Tower <small><a href="https://clojars.org/com.taoensso/tower">on clojars</a></small></h3>
+      <p><a href="https://github.com/ptaoussanis/tower">An internationalization (i18n) library for Clojure</a>, inspired by the i18n Ruby gem</p>
+      <p><a class="btn" href="https://github.com/ptaoussanis/tower">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Timbre <small><a href="https://clojars.org/com.taoensso/timbre">on clojars</a></small></h3>
+      <p>Timbre is a <a href="https://github.com/ptaoussanis/timbre">pure Clojure logging library</a>: no XML or property files</p>
+      <p><a class="btn" href="https://github.com/ptaoussanis/timbre">On GitHub »</a></p>
+    </div>
+  </div>
+
+
+  <div style="margin-top: 48px; margin-bottom: 16px;">
+    <h2>Deprecated Projects</h2>
+    <p>Projects below are failed experiments or not actively being used and worked on.</p>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span4">
+      <h3>Romulan</h3>
+      <p>LMAX Disruptor in Clojure embrace</p>
+      <p><a class="btn" href="https://github.com/clojurewerkz/romulan">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+      <h3>Crawlista <small><a href="https://clojars.org/clojurewerkz/crawlista">on clojars</a></small></h3>
+      <p>Support Clojure library for applications that crawl the Web</p>
+      <p><a class="btn" href="https://github.com/michaelklishin/crawlista">On GitHub »</a></p>
+    </div>
+    <div class="span4">
+    </div>
+  </div>
 </div>
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Monger <small><a href="https://clojars.org/com.novemberain/monger">on clojars</a></small></h3>
-    <p>Monger is a <a href='http://clojuremongodb.info'>Clojure MongoDB client</a> for a more civilized age: friendly, flexible and with batteries included</p>
-    <p>
-      <a class='btn' href='http://clojuremongodb.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/michaelklishin/monger'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/forum/#!forum/clojure-mongodb'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Langohr <small><a href="https://clojars.org/com.novemberain/langohr">on clojars</a></small></h3>
-    <p>Feature rich <a href='https://github.com/michaelklishin/langohr'>Clojure RabbitMQ client</a> that embraces <a href="http://bit.ly/amqp-model-explained">AMQP 0.9.1 Model</a> and RabbitMQ extensions to it.
-      Developed after 3+ years of experience with several other RabbitMQ clients.</p>
-    <p>
-      <a class='btn' href='http://clojurerabbitmq.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/michaelklishin/langohr'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/forum/#!forum/clojure-rabbitmq'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Neocons <small><a href="https://clojars.org/clojurewerkz/neocons">on clojars</a></small></h3>
-    <p>An idiomatic <a href='https://github.com/michaelklishin/neocons'>Clojure client for the Neo4J REST API</a>. Cypher queries, Heroku add-on support and more</p>
-    <p>
-      <a class='btn' href='http://clojureneo4j.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/michaelklishin/neocons'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-neo4j'>Mailing List »</a>
-    </p>
-  </div>
-</div>
 
 
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Welle <small><a href="https://clojars.org/com.novemberain/welle">on clojars</a></small></h3>
-    <p>An expressive <a href='http://clojureriak.info'>Clojure client for Riak</a></p>
-    <p>
-      <a class='btn' href='http://clojureriak.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/michaelklishin/welle'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-riak'>Mailing List »</a>
-    </p>
-  </div>
-
-  <div class='span4'>
-    <h3>Elastisch <small><a href="https://clojars.org/clojurewerkz/elastisch">on clojars</a></small></h3>
-    <p>Minimalistic <a href='https://github.com/clojurewerkz/elastisch'>Clojure client for ElasticSearch</a> that strives to be feature complete</p>
-    <p>
-      <a class='btn' href='http://clojureelasticsearch.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/clojurewerkz/elastisch'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-elasticsearch'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Cassaforte <small><a href="https://clojars.org/clojurewerkz/cassaforte">on clojars</a></small></h3>
-    <p>A minimalistic <a href="https://github.com/clojurewerkz/cassaforte">Clojure client for Apache Cassandra</a> (1.2+), build around CQL (3.0).</p>
-    <p>
-      <a class='btn' href='https://github.com/clojurewerkz/cassaforte'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-cassandra'>Mailing List »</a>
-    </p>
-  </div>
-</div>
-
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Titanium <small><a href="https://clojars.org/clojurewerkz/titanium">on clojars</a></small></h3>
-    <p>Powerful <a href="http://titanium.clojurewerkz.org">Clojure graph library</a> built on top of <a href="http://thinkaurelius.github.com/titan/">Titan</a></p>
-    <p>
-      <a class='btn' href='http://titanium.clojurewerkz.org'>Documentation »</a>
-      <a class='btn' href='https://github.com/clojurewerkz/titanium'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-titanium'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Ogre <small><a href="https://clojars.org/clojurewerkz/ogre">on clojars</a></small></h3>
-    <p><a href='http://ogre.clojurewerkz.org'>Clojure library for querying graphs</a></p>
-    <p>
-      <a class='btn' href='http://ogre.clojurewerkz.org'>Documentation »</a>
-      <a class='btn' href='https://github.com/clojurewerkz/ogre'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-titanium'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Archimedes <small><a href="https://clojars.org/clojurewerkz/archimedes">on clojars</a></small></h3>
-    <p>Clojure library for <a href="http://tinkerpop.com">Blueprints graphs</a></p>
-    <p>
-      <!-- <a class='btn' href='http://archimedes.clojurewerkz.org'>Documentation »</a> -->
-      <a class='btn' href='https://github.com/clojurewerkz/archimedes'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-titanium'>Mailing List »</a>
-    </p>
-  </div>
-</div>
-
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Quartzite <small><a href="https://clojars.org/clojurewerkz/quartzite">on clojars</a></small></h3>
-    <p>Powerful <a href="http://clojurequartz.info">scheduling library for Clojure</a> that uses Quartz Scheduler under the hood</p>
-    <p>
-      <a class='btn' href='http://clojurequartz.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/michaelklishin/quartzite'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-quartz'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Spyglass <small><a href="https://clojars.org/clojurewerkz/spyglass">on clojars</a></small></h3>
-    <p>A very fast <a href="https://github.com/clojurewerkz/spyglass">Clojure Memcached client</a> built on top of <a href="http://code.google.com/p/spymemcached/">SpyMemcached</a>.</p>
-    <p>
-      <a class='btn' href='http://clojurememcached.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/clojurewerkz/spyglass'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-memcached'>Mailing List »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Money <small><a href="https://clojars.org/clojurewerkz/money">on clojars</a></small></h3>
-    <p>Currency manipulation library for Clojure, built on top of Joda Money</p>
-    <p><a class='btn' href='https://github.com/clojurewerkz/money'>On GitHub »</a></p>
-  </div>
-</div>
-
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Validateur <small><a href="https://clojars.org/com.novemberain/validateur">on clojars</a></small></h3>
-    <p>Functional data <a href="https://github.com/michaelklishin/validateur">validations library for Clojure</a>. Inspired by Ruby's ActiveModel.</p>
-    <p>
-      <a class='btn' href='http://clojurevalidations.info'>Documentation »</a>
-      <a class='btn' href='https://github.com/michaelklishin/validateur'>On GitHub »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Mailer <small><a href="https://clojars.org/clojurewerkz/mailer">on clojars</a></small></h3>
-    <p>Mailer delivery library for Clojure inspired by ActionMailer. Uses Mustasche for templates, supports multiple delivery
-      mechanisms and unit testing</p>
-    <p><a class='btn' href='https://github.com/clojurewerkz/mailer'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>Pantomime <small><a href="https://clojars.org/com.novemberain/pantomime">on clojars</a></small></h3>
-    <p>A tiny <a href="https://github.com/michaelklishin/pantomime">Clojure library that deals with MIME types</a> (Internet media types): sophisticated content
-      type detection strategies meet ease of use. Built on top of Apache Tika.</p>
-    <p>
-      <a class='btn' href='https://github.com/michaelklishin/pantomime'>On GitHub »</a>
-      <a class='btn' href='https://groups.google.com/group/clojure-pantomime'>Mailing List »</a>
-    </p>
-  </div>
-</div>
-
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Route One <small><a href="https://clojars.org/clojurewerkz/route-one">on clojars</a></small></h3>
-    <p>URL routes generation made easy</p>
-    <p>
-      <a class='btn' href='https://github.com/clojurewerkz/route-one'>On GitHub »</a>
-    </p>
-  </div>
-  <div class='span4'>
-    <h3>Urly <small><a href="https://clojars.org/clojurewerkz/urly">on clojars</a></small></h3>
-    <p>A Clojure library that parses and unifies URIs, URLs and relative values that real world HTML anchors may contain</p>
-    <p><a class='btn' href='https://github.com/michaelklishin/urly'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>VClock <small><a href="https://clojars.org/clojurewerkz/vclock">on clojars</a></small></h3>
-    <p><a href="https://clojars.org/clojurewerkz/vclock">Vector clocks implementation in Clojure</a>, ported from <a href="https://github.com/basho/riak_core">Riak Core</a></p>
-    <p><a class='btn' href='https://github.com/michaelklishin/vclock'>On GitHub »</a></p>
-  </div>
-</div>
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>CHash <small><a href="https://clojars.org/clojurewerkz/chash">on clojars</a></small></h3>
-    <p>A <a href="https://github.com/michaelklishin/chash">consistent hashing library</a> for Clojure</p>
-    <p><a class='btn' href='https://github.com/michaelklishin/chash'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>Serialism <small><a href="https://clojars.org/clojurewerkz/serialism">on clojars</a></small></h3>
-    <p>A tiny Clojure library that handles serialization of values into popular formats based on the provided content type</p>
-    <p><a class='btn' href='https://github.com/clojurewerkz/serialism'>On GitHub »</a>
-    <a class='btn' href='https://groups.google.com/group/clojure-serialism'>Mailing List »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>Support <small><a href="https://clojars.org/clojurewerkz/support">on clojars</a></small></h3>
-    <p>Support library for other ClojureWerkz projects</p>
-    <p><a class='btn' href='https://github.com/clojurewerkz/support'>On GitHub »</a></p>
-  </div>
-</div>
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Romulan</h3>
-    <p>LMAX Disruptor in Clojure embrace</p>
-    <p><a class='btn' href='https://github.com/clojurewerkz/romulan'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>Crawlista <small><a href="https://clojars.org/clojurewerkz/crawlista">on clojars</a></small></h3>
-    <p>Support Clojure library for applications that crawl the Web</p>
-    <p><a class='btn' href='https://github.com/michaelklishin/crawlista'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-  </div>
-</div>
-
-
-<div style="margin-top: 48px; margin-bottom: 16px;">
-  <h2>Friends of ClojureWerkz</h2>
-  <p>Projects below are not by us but they share our vision and are high quality so we are happy to recommend them</p>
-</div>
-
-<div class='row-fluid'>
-  <div class='span4'>
-    <h3>Carmine <small><a href="https://clojars.org/com.taoensso/carmine">on clojars</a></small></h3>
-    <p>A great <a href="https://github.com/ptaoussanis/carmine">Clojure client for Redis</a></p>
-    <p><a class='btn' href='https://github.com/ptaoussanis/carmine'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>Tower <small><a href="https://clojars.org/com.taoensso/tower">on clojars</a></small></h3>
-    <p><a href="https://github.com/ptaoussanis/tower">An internationalization (i18n) library for Clojure</a>, inspired by the i18n Ruby gem</p>
-    <p><a class='btn' href='https://github.com/ptaoussanis/tower'>On GitHub »</a></p>
-  </div>
-  <div class='span4'>
-    <h3>Timbre <small><a href="https://clojars.org/com.taoensso/timbre">on clojars</a></small></h3>
-    <p>Timbre is a <a href="https://github.com/ptaoussanis/timbre">pure Clojure logging library</a>: no XML or property files</p>
-    <p><a class='btn' href='https://github.com/ptaoussanis/timbre'>On GitHub »</a></p>
-  </div>
-</div>
+<script type="text/javascript">
+  $(".alert").alert();
+</script>
